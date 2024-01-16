@@ -955,8 +955,8 @@
         
 
         document.querySelector('.move-result').innerHTML = 
-        `<div class="you">${userName}: <span class="your-icon">${playerPick}</span></div>
-        <div class="computer"><span class="comp-icon">${computer}</span> :A.I</div>`;
+        `<div class="you">${userName}: <span class="your-icon"><img src="images/${playerPick}.png"></span></div>
+        <div class="computer"><span class="comp-icon"><img src="images/${computer}.png"></span> :A.I</div>`;
 
         document.querySelector('.res-type').innerHTML = result;
     }
